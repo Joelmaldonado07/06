@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,128 +12,207 @@
             margin: 0;
             padding: 0;
         }
- 
+
         .container {
-           
-            display: flex; 
-            justify-content: center; 
+
+            display: flex;
+            justify-content: center;
             align-items: center;
             background-color: #000000;
             margin: 0 50px;
- 
+
         }
- 
+
         header {
-            display: flex; 
-            align-items: baseline; 
-            justify-content:left;
+            display:flex;
+            flex-direction: column;
+            align-items: baseline;
+            justify-content: left;
             padding: 25px;
             background-color: #000000;
         }
- 
+
         .container-image {
-           
+
             margin-bottom: 20px;
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
             
+
         }
- 
+
         .box {
             width: 350px;
             padding: 20px;
             background-color: #000000;
             margin: 10px;
             text-align: center;
-            
+
         }
-        .tamaño{
+
+        .tamaño {
             width: 100%;
         }
-        p{
+
+        p {
             font-size: 19px;
             color: white;
         }
-        h3{
+
+        h3 {
             color: white;
         }
-        .container-image img{
+
+        .container-image img {
             width: 250px;
-        
+            height: 250px;
+        }
+
+        .fondo{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+        footer{
+            background-color: white;
+            height: 120px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding: 15px;
+        }
+        .redes{
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            
+           
+        }
+        footer p{
+            background-color: #000000;
         }
     </style>
 </head>
+
 <body>
     <header>
+       <div class="fondo">
+         <img src="assets/img/fondo/cooltext446064874996630.gif" alt="">
+       </div>
         <div class="container-image">
-            <img src="https://img.asmedia.epimg.net/resizer/RyZobj3JJUssnAKkLQ-vhVjo6qE=/1472x828/cloudfront-eu-central-1.images.arcpublishing.com/diarioas/OLI2L6P6ZFA7RMWGQADVV5OU6A.jpg"alt="Imagen de Producto">
+           
+            <img src="https://thumbs.dreamstime.com/b/fondo-negro-vectorial-del-logotipo-de-nike-marca-para-uso-impreso-ropa-deportiva-y-fitness-183282388.jpg"
+                alt="Imagen de Producto">
+            <img src="https://static.vecteezy.com/system/resources/previews/019/136/302/original/adidas-logo-adidas-icon-free-free-vector.jpg"
+                alt="Imagen de producto">
+            <img src="https://turbologo.com/articles/wp-content/uploads/2019/11/Puma-logo.png.webp"
+                alt="Imagen de producto">
         </div>
     </header>
     <main class="container">
         <div class="box">
-            <img class="tamaño" src="https://www.dexter.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dw525601f1/products/NIFB8402-060/NIFB8402-060-6.JPG" alt="">
+            <img class="tamaño"
+                src="https://www.dexter.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dw525601f1/products/NIFB8402-060/NIFB8402-060-6.JPG"
+                alt="">
             <h3>Botines Fútbol Nike Zoom Mercurial Superfly 9 Academy Xxv Mg </h3>
             <p> <strong>$86.999</strong> </p>
         </div>
         <div class="box">
-            <img class="tamaño" src="https://www.dexter.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dw6fad95ca/products/NIDJ5603-605/NIDJ5603-605-6.JPG" alt="">
+            <img class="tamaño"
+                src="https://www.dexter.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dw6fad95ca/products/NIDJ5603-605/NIDJ5603-605-6.JPG"
+                alt="">
             <h3>Botines Fútbol Nike Zoom Mercurial Vapor 15 Pro Fg </h3>
-            <p><strong>$125.999</strong></p>            
+            <p><strong>$125.999</strong></p>
         </div>
         <div class="box">
-            <img class="tamaño" src="https://www.dexter.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dw20e9e56f/products/NIDD9473-705/NIDD9473-705-6.JPG" alt="">
+            <img class="tamaño"
+                src="https://www.dexter.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dw20e9e56f/products/NIDD9473-705/NIDD9473-705-6.JPG"
+                alt="">
             <h3>Botines Nike Phantom GX Academy </h3>
-            <p><strong>$62.399 </strong></p>           
+            <p><strong>$62.399 </strong></p>
         </div>
         <div class="box">
-            <img class="tamaño" src="https://www.dexter.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dwbbfbcb0e/products/NI_CV0811-403/NI_CV0811-403-6.JPG" alt="">
+            <img class="tamaño"
+                src="https://www.dexter.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dwbbfbcb0e/products/NI_CV0811-403/NI_CV0811-403-6.JPG"
+                alt="">
             <h3>Botines Nike Mercurial Vapor 14 Academy Fg/Mg</h3>
-            <p><strong>$45.599</strong> </p>            
+            <p><strong>$45.599</strong> </p>
         </div>
     </main>
-        <main class="container">
-            <div class="box">
-                <img class="tamaño" src="https://www.dexter.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dw0b19981d/products/ADGW4591/ADGW4591-6.JPG" alt="">
-                <h3>Botines Fútbol adidas Predator Accuracy.3 Fg </h3>
-                <p><strong>$70.999</strong></p>                
-            </div>
-            <div class="box">
-                <img class="tamaño" src="https://www.dexter.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dwa8fd6283/products/ADGW8472/ADGW8472-6.JPG" alt="">
-                <h3>Botines Fúbol adidas X Speedportal.3 Ll Fg </h3>
-                <p><strong>$61.699,00</strong></p>                
-            </div>
-            <div class="box">
-                <img class="tamaño" src="https://www.dexter.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dwa3581fe4/products/ADGZ5077/ADGZ5077-6.JPG" alt="">
-                <h3>Botines Fútbol adidas X Speedportal.3 Fg </h3>
-                <p><strong>$70.999</strong></p>                
-            </div>
-            <div class="box">
-                <img class="tamaño" src="https://www.dexter.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dwe45d7976/products/AD_FV3183/AD_FV3183-6.JPG" alt="">
-                <h3>Botines adidas Predator 20.3 para niño</h3>
-                <p><strong>$35.999 - $39.599</strong></p>              
-            </div>
-        </main>
-        <main class="container">
-            <div class="box">
-                <img class="tamaño" src="https://www.dexter.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dw23f3b64c/products/PU107240-01/PU107240-01-6.JPG" alt="">
-                <h3>Botines Puma Ultra Pro Terreno Firme </h3>
-                <p><strong>$135.299</strong> </p>               
-            </div>
-            <div class="box">
-                <img class="tamaño" src="https://www.dexter.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dwcd9c6931/products/PU_107141-01/PU_107141-01-6.JPG" alt="">
-                <h3>Botines Puma Ultra Play Fg/Ag Jr para niño</h3>
-                <p><strong>$20.699 </strong></p>               
-            </div>
-            <div class="box">
-                <img class="tamaño" src="https://www.dexter.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dw8626908a/products/PU107641-01/PU107641-01-6.JPG" alt="">
-                <h3>Botines Fútbol Puma Ultra Pro Fg/ag </h3>
-                <p><strong>$117.599</strong></p>  
-            </div>
-            <div class="box">
-                <img class="tamaño" src="https://www.dexter.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dw79d902ff/products/PU107361-01/PU107361-01-6.JPG" alt="">
-                <h3>Botines Fútbol Puma Future Ultimate Fg/ag</h3>
-                <p><strong>$177.599</strong></p>
-            </div>
-        </main>
-
+    <main class="container">
+        <div class="box">
+            <img class="tamaño"
+                src="https://www.dexter.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dw0b19981d/products/ADGW4591/ADGW4591-6.JPG"
+                alt="">
+            <h3>Botines Fútbol adidas Predator Accuracy.3 Fg </h3>
+            <p><strong>$70.999</strong></p>
+        </div>
+        <div class="box">
+            <img class="tamaño"
+                src="https://www.dexter.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dwa8fd6283/products/ADGW8472/ADGW8472-6.JPG"
+                alt="">
+            <h3>Botines Fúbol adidas X Speedportal.3 Ll Fg </h3>
+            <p><strong>$61.699,00</strong></p>
+        </div>
+        <div class="box">
+            <img class="tamaño"
+                src="https://www.dexter.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dwa3581fe4/products/ADGZ5077/ADGZ5077-6.JPG"
+                alt="">
+            <h3>Botines Fútbol adidas X Speedportal.3 Fg </h3>
+            <p><strong>$70.999</strong></p>
+        </div>
+        <div class="box">
+            <img class="tamaño"
+                src="https://www.dexter.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dwe45d7976/products/AD_FV3183/AD_FV3183-6.JPG"
+                alt="">
+            <h3>Botines adidas Predator 20.3 para niño</h3>
+            <p><strong>$35.999 - $39.599</strong></p>
+        </div>
+    </main>
+    <main class="container">
+        <div class="box">
+            <img class="tamaño"
+                src="https://www.dexter.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dw23f3b64c/products/PU107240-01/PU107240-01-6.JPG"
+                alt="">
+            <h3>Botines Puma Ultra Pro Terreno Firme </h3>
+            <p><strong>$135.299</strong> </p>
+        </div>
+        <div class="box">
+            <img class="tamaño"
+                src="https://www.dexter.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dwcd9c6931/products/PU_107141-01/PU_107141-01-6.JPG"
+                alt="">
+            <h3>Botines Puma Ultra Play Fg/Ag Jr para niño</h3>
+            <p><strong>$20.699 </strong></p>
+        </div>
+        <div class="box">
+            <img class="tamaño"
+                src="https://www.dexter.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dw8626908a/products/PU107641-01/PU107641-01-6.JPG"
+                alt="">
+            <h3>Botines Fútbol Puma Ultra Pro Fg/ag </h3>
+            <p><strong>$117.599</strong></p>
+        </div>
+        <div class="box">
+            <img class="tamaño"
+                src="https://www.dexter.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dw79d902ff/products/PU107361-01/PU107361-01-6.JPG"
+                alt="">
+            <h3>Botines Fútbol Puma Future Ultimate Fg/ag</h3>
+            <p><strong>$177.599</strong></p>
+        </div>
+    </main>
+    <footer>
         
+        <div class="redes">
+        <a href="https://www.dexter.com.ar/buscar?q=nike+botines&search-button=&lang=default"> <img width="90px" src="data:image/png;base64,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" alt="Nike"></a>
+        <a href="https://www.dexter.com.ar/buscar?q=botines%20adidas%20hombre"> <img width="90px" src="https://static.vecteezy.com/system/resources/previews/010/994/276/non_2x/adidas-logo-symbol-clothes-design-icon-abstract-football-illustration-free-vector.jpg" alt="Adidas"></a>
+        <a href="https://www.dexter.com.ar/buscar?q=puma%20botines&start=36"> <img width="90px" src="https://upload.wikimedia.org/wikipedia/commons/8/88/Puma-Logo.png" alt="Puma"></a>
+    </div>
+    <div>
+        <p><strong>Joel Maldonado</strong></p>
+    </div>
+    </footer>
+
+
 </body>
+
 </html>
